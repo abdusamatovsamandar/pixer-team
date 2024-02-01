@@ -55,4 +55,10 @@
     background-color: transparent;
     color: #1AAB7B;
   }
+  
+  &:active{
+    opacity: 0.6;
+    background-color: #1AAB7B;
+    color: #fff;
+  }
 }
