@@ -5,5 +5,9 @@
   padding: 0 15px;
 }
 
+body{
+  font-family: "PlusJakarta Sans", sans-serif;
+  font-weight: 500;
+}
 @import "mixins";
 @import "blocks/blocks";
