@@ -4,4 +4,53 @@
   margin: 0 auto;
   padding: 0 15px;
 }
-/*# sourceMappingURL=main.css.map */
+
+/*-----------------------WORK STYLE START-----------------------*/
+.work {
+  padding: 60px 0;
+}
+.work__title-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.work__title {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  margin: 0;
+}
+.work__title-desc {
+  width: 650px;
+  height: 147px;
+  font-size: 18px;
+}
+.work__lets-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+.work__title-wrapper1 {
+  align-items: center;
+}
+.work__lets-title1 {
+  margin: 0;
+  font-size: 40px;
+}
+.work__lets-desc1 {
+  width: 450px;
+  font-size: 18px;
+}
+
+/*-----------------------WORK STYLE END-----------------------*/
+/* CONTAINER */
+.container {
+  width: 100%;
+  max-width: 1246px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}/*# sourceMappingURL=main.css.map */

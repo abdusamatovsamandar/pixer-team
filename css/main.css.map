@@ -1,17 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,UAAU,CAAA;EACR,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,MAAM;CAChB",
-    "sources": [
-        "../sass/main.scss",
-        "../sass/_mixins.scss",
-        "../sass/blocks/_blocks.scss",
-        "../sass/blocks/_header.scss",
-        "../sass/blocks/_hero.scss",
-        "../sass/blocks/_services.scss",
-        "../sass/blocks/_work.scss",
-        "../sass/blocks/_contact.scss",
-        "../sass/blocks/_footer.scss"
-    ],
-    "names": [],
-    "file": "main.css"
-}
+{"version":3,"sources":["../sass/main.scss","main.css","../sass/blocks/_work.scss","../sass/blocks/_container.scss"],"names":[],"mappings":"AAAA;EACE,WAAA;EACA,iBAAA;EACA,cAAA;EACA,eAAA;ACCF;;ACLA,iEAAA;AACC;EACG,eAAA;ADQJ;ACNI;EAGI,aAAA;EACA,uBAAA;EACA,sBAAA;EACC,mBAAA;ADMT;ACHI;EACI,aAAA;EACA,uBAAA;EACA,eAAA;EACA,SAAA;ADKR;ACDI;EACI,YAAA;EACA,aAAA;EACA,eAAA;ADGR;ACAI;EACI,aAAA;EACA,mBAAA;EACA,SAAA;EACA,mBAAA;ADER;ACAI;EACI,mBAAA;ADER;ACCI;EACI,SAAA;EAGA,eAAA;ADDR;ACGI;EACI,YAAA;EAEA,eAAA;ADFR;;ACUA,+DAAA;ACtDA,cAAA;AACA;EACI,WAAA;EACA,iBAAA;EACA,kBAAA;EACA,iBAAA;EACA,kBAAA;EACA,mBAAA;AFgDJ","file":"main.css"}
