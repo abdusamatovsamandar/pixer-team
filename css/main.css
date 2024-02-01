@@ -4,4 +4,182 @@
   margin: 0 auto;
   padding: 0 15px;
 }
+
+body {
+  font-family: "PlusJakarta Sans", sans-serif;
+  font-weight: 500;
+}
+
+/*------------------------------ CONTACT STYLES START --------------------------------*/
+.contact {
+  padding: 100px 0;
+}
+
+.contact__wrapper {
+  text-align: center;
+}
+
+.contact__wrapper-start {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.contact__title {
+  margin: 0 0 20px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 140%;
+  color: #101010;
+}
+
+.contact__desc {
+  margin: 0;
+  color: #858EA1;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.contact__wrapper-end {
+  width: 100%;
+  max-width: 1008px;
+  background-color: #F2F4F6;
+  margin: 0 auto;
+}
+
+.contact__form {
+  width: 100%;
+  max-width: 390px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.contact__form-name {
+  width: 100%;
+  max-width: 384px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #101010;
+  margin: 0;
+  padding: 10px 0 20px 0px;
+  margin-bottom: 40px;
+  font-size: 22px;
+}
+
+.contact__form-name::-webkit-input-placeholder {
+  color: #101010;
+  font-size: 22px;
+  padding-top: 20px;
+}
+
+.contact__form-name:-ms-input-placeholder {
+  color: #101010;
+  font-size: 22px;
+  padding-top: 20px;
+}
+
+.contact__form-name::-ms-input-placeholder {
+  color: #101010;
+  font-size: 22px;
+  padding-top: 20px;
+}
+
+.contact__form-name::placeholder {
+  color: #101010;
+  font-size: 22px;
+  padding-top: 20px;
+}
+
+.contact__form-name:focus {
+  outline: none;
+}
+
+.contact__form-num {
+  width: 100%;
+  max-width: 384px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #101010;
+  margin: 0;
+  padding: 10px 0 20px 0px;
+  margin-bottom: 40px;
+  font-size: 22px;
+}
+
+.contact__form-num::-webkit-input-placeholder {
+  color: #101010;
+  font-size: 22px;
+  padding-top: 20px;
+}
+
+.contact__form-num:-ms-input-placeholder {
+  color: #101010;
+  font-size: 22px;
+  padding-top: 20px;
+}
+
+.contact__form-num::-ms-input-placeholder {
+  color: #101010;
+  font-size: 22px;
+  padding-top: 20px;
+}
+
+.contact__form-num::placeholder {
+  color: #101010;
+  font-size: 22px;
+  padding-top: 20px;
+}
+
+.contact__form-num:focus {
+  outline: none;
+}
+
+.contact__form-desc {
+  width: 100%;
+  max-width: 384px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #101010;
+  margin: 0;
+  padding: 10px 0 20px 0px;
+  margin-bottom: 40px;
+}
+
+.contact__form-desc {
+  color: #101010;
+  font-size: 22px;
+  padding-top: 20px;
+}
+
+.contact__form-desc:focus {
+  outline: none;
+}
+
+.contact__btn {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 120%;
+  color: #FFF;
+  padding: 20px 40px;
+  border: 1px solid #1AAB7B;
+  border-radius: 6px;
+  background: #1AAB7B;
+  margin-bottom: 20px;
+}
+
+.contact__btn:hover {
+  background-color: transparent;
+  color: #1AAB7B;
+}
+
+.contact__info-text {
+  margin: 0;
+  color: #858EA1;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+/*------------------------------ CONTACT STYLES END --------------------------------*/
 /*# sourceMappingURL=main.css.map */

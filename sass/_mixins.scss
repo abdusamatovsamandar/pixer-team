@@ -1,0 +1,58 @@
+@mixin list-unstyled{
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+@mixin link-unstyled{
+  text-decoration: none;
+}
+
+@mixin title-styles{
+  margin: 0 0 20px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 140%;
+  color: #101010;
+}
+
+@mixin desc-styles{
+  margin: 0;
+  color: #858EA1;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+@mixin input-styles{
+  width: 100%;
+  max-width: 384px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #101010;
+  margin: 0;
+  padding: 10px 0 20px 0px;
+  margin-bottom: 40px;
+}
+
+@mixin placeholder-styles{
+  color: #101010;
+  font-size: 22px;
+  padding-top: 20px;
+}
+
+@mixin btn-styles{
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 120%;
+  color: #FFF;
+  padding: 20px 40px;
+  border: 1px solid #1AAB7B;
+  border-radius: 6px;
+  background: #1AAB7B;
+  
+  &:hover{
+    background-color: transparent;
+    color: #1AAB7B;
+  }
+}

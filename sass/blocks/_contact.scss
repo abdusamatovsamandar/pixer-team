@@ -1,0 +1,92 @@
+/*------------------------------ CONTACT STYLES START --------------------------------*/
+.contact{
+  padding: 100px 0;
+  
+  &__wrapper{
+    text-align: center;
+  }
+  
+  &__wrapper-start{
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  
+  &__title{
+    @include title-styles;
+  }
+  
+  &__desc{
+    @include desc-styles;
+  }
+  
+  &__wrapper-end{
+    width: 100%;
+    max-width: 1008px;
+    background-color: #F2F4F6;
+    margin: 0 auto;
+  }
+  
+  &__form{
+    width: 100%;
+    max-width: 390px;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  
+  &__form-name{
+    @include input-styles;
+    font-size: 22px;
+    
+    &::placeholder{
+      @include placeholder-styles;
+    }
+    
+    &:focus{
+      outline: none;
+    }
+  }
+  
+  &__form-num{
+    @include input-styles;
+    font-size: 22px;
+    
+    &::placeholder{
+      @include placeholder-styles;
+    }
+
+    &:focus{
+      outline: none;
+    }
+  }
+  
+  &__form-desc{
+    @include input-styles;
+    
+    &{
+      color: #101010;
+      font-size: 22px;
+      padding-top: 20px;
+    }
+
+    &:focus{
+      outline: none;
+    }
+  }
+  
+  &__btn{
+    @include btn-styles;
+    margin-bottom: 20px;
+  }
+
+  &__info-text{
+    @include desc-styles
+  }
+  
+  
+  
+  
+  
+}
+/*------------------------------ CONTACT STYLES END --------------------------------*/
