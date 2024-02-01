@@ -1,0 +1,55 @@
+/*-----------------------WORK STYLE START-----------------------*/
+ .work{
+    padding: 60px 0;
+
+    &__title-wrapper{
+     
+         
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+         align-items: center;
+    }
+
+    &__title{
+        display: flex;
+        justify-content: center;
+        font-size: 36px;
+        margin: 0;
+
+    }
+
+    &__title-desc{
+        width: 650px;
+        height: 147px;
+        font-size: 18px;
+    }
+
+    &__lets-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+    &__title-wrapper1{
+        align-items: center;
+    }
+    
+    &__lets-title1{
+        margin: 0;
+        // padding-left: 30px;
+
+        font-size: 40px;
+    }
+    &__lets-desc1{
+        width: 450px;
+
+        font-size:18px;
+    }
+
+
+ }
+
+
+
+/*-----------------------WORK STYLE END-----------------------*/
